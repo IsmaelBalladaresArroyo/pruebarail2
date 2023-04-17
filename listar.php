@@ -64,10 +64,15 @@
         <?php } ?>
     </table>
             <style>
-                table{
+                .table{
                     padding: 0;
                     margin: 0;
                 }
+                .table th{
+                  background-color: black;
+                  border: #FFEB3B ;
+                }
+                
             </style>
 </body>
 </html>
