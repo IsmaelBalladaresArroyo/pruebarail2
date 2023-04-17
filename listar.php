@@ -52,6 +52,7 @@
 
         </tr>
         <?php while ($fila = pg_fetch_assoc($resultado)) { ?>
+
             <tr>
                 <td scope="row"><?php echo $fila['idpersona']; ?></td>
                 <td scope="row"><?php echo $fila['documento']; ?></td>
@@ -62,6 +63,11 @@
             </tr>
         <?php } ?>
     </table>
-
+            <style>
+                table{
+                    padding: 0;
+                    margin: 0;
+                }
+            </style>
 </body>
 </html>
